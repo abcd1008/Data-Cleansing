@@ -4,6 +4,7 @@ from dateutil import parser
 from bson.objectid import ObjectId
 
 
+
 def upsert_agency_relationalship():
     for variety_talent_id in dic_variety_uta_talents.keys():
         uta_talent = {}
